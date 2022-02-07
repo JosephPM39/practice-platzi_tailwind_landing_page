@@ -1,0 +1,28 @@
+{
+  "name": "practice-platzi_tailwind_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css",
+    "tw:dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephPM39/practice-platzi_tailwind_landing_page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephPM39/practice-platzi_tailwind_landing_page/issues"
+  },
+  "homepage": "https://github.com/JosephPM39/practice-platzi_tailwind_landing_page#readme",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.1",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18"
+  }
+}
